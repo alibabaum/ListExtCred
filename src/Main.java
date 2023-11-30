@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 class Main {
     public static void main(String[] args) {
-ArrayList<String> listOfStrings = new ArrayList<String>;
+        ArrayList<String> listOfStrings = new ArrayList<String>();
 
     }
 
@@ -61,7 +61,7 @@ ArrayList<String> listOfStrings = new ArrayList<String>;
     public static List<String> findAndDestroyAllAmoebas(List<String> listOfStrings) {
         int i = 0;
         for (String list : listOfStrings) {
-            if (!listOfStrings.toLowerCase().contains("ameobas")) {
+            if (list.toLowerCase().contains("amoebas")) {
                 listOfStrings.remove(i);
             }
             i++;
